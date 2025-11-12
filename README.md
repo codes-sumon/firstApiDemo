@@ -1,13 +1,15 @@
 # firstApiDemo
 
-A simple FastAPI demo project.
+## Run the project
 
----
-
-## 🚀 Run the project
-
-First, stop any running Python process and then start the FastAPI server:
-
+Stop any running Python process:
 ```bash
 taskkill /IM python.exe /F
+```
+
+Start the FastAPI server:
+```bash
 python -m uvicorn main:app --reload
+```
+
+Go to: http://127.0.0.1:8000/docs
